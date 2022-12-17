@@ -10,6 +10,20 @@ export const Container = styled.main`
     flex-direction: row;
     justify-content: space-between;
     align-itens: center;
+
+`
+export const Wrapper = styled.div`
+    max-width: 300px;
+`
+export const Column = styled.div`
+    flex: 1;
+`
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    align-itens: cente;
+    margin-top: 20px;
 `
 
 export const Title = styled.h2`
@@ -23,17 +37,44 @@ export const Title = styled.h2`
 
     color: #ffff;
 `
-export const TitleHighlight = styled.span`
-    color: #E4105D;
+export const TitleLogin = styled.p`
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    width: 320px;
+    margin-bottom: 20px;
+    line-height: 44px;
+
+
 `
-export const TextContent = styled.p`
+export const SubTitleLogin = styled.p`
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    width: 420px;
-    margin-bottom: 20px;
-    line-height: 22px;
+    font-size: 18px;
+    width: 320px;
+    margin-bottom: 35px;
+    line-height: 25px;
 
-    color: #ffff;
+
+`
+export const EsqueciText = styled.p`
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 40px;
+
+    color: #e5e044;
+`
+export const CriarText = styled.p`
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #E23007;
 `

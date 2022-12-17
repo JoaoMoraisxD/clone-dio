@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100%;
     max-width: 80%;
-    height: 27px;
+    height: 35px;
 
     display:Flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ export const Wrapper = styled.div`
 `
 export const BuscarInputContainer = styled.div`
     width: 175px;
-    height 23px;
+    height 24px;
     background: #2d2d37;
     border-radius: 8px;
     padding: 2px 5px;
@@ -41,9 +41,9 @@ export const BuscarInputContainer = styled.div`
     justtify-content: center;
 `
 export const Menu = styled.a`
-    font-family: 'Open sans',
+    font-family: 'Open sans';
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 25px;
     color: #ffff;
     margin-right: 12px;
@@ -59,10 +59,10 @@ export const MenuRight = styled.a`
     text-decoration: none;
 `
 export const UserPicture = styled.img`
-    width: 32px;
-    height: 32px;
-    border-readius: 22px;
-    border: 2px solid #ffff
+    width: 30px;
+    height: 30px;
+    border-radius: 22px;
+    border: 2px solid #ffff;
 `
 export const Input = styled.input`
     background: transparent;
