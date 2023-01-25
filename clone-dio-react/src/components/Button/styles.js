@@ -4,16 +4,18 @@ export const ButtonContainer = styled.button`
     background: #565656;
     border-radius: 22px;
     position: relative;
-
+    margin:auto auto;
     color: #ffff;
     padding: 2px 12px;
     min-width: 120px;
     width: 100%;
+    height: 70%;
     
 
     ${({variant}) => variant !== "primary" && css`
         min-width: 167px;
         height: 33px;
+        margin: 20px auto;
 
         background: #E4105D;
         &:hover {

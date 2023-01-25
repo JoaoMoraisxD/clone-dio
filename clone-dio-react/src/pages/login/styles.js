@@ -15,6 +15,7 @@ export const Container = styled.main`
 export const Wrapper = styled.div`
     max-width: 300px;
 `
+
 export const Column = styled.div`
     flex: 1;
 `
@@ -74,7 +75,7 @@ export const CriarText = styled.p`
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 20px;
 
     color: #E23007;
 `
