@@ -14,6 +14,7 @@ export const Container = styled.main`
 `
 export const Wrapper = styled.div`
     max-width: 300px;
+    margin-left: 200px;
 `
 
 export const Column = styled.div`
@@ -22,8 +23,8 @@ export const Column = styled.div`
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between
-    align-itens: cente;
+    justify-content: space-between;
+    align-itens: center;
     margin-top: 20px;
 `
 
